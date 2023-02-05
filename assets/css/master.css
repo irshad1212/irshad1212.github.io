@@ -6695,7 +6695,7 @@ img {
 }
 @media only screen and (max-width: 767px) {
   .hero__title {
-    font-size: 48px;
+    font-size: 50px;
   }
 }
 .hero__title::after {
@@ -6771,13 +6771,13 @@ img {
   color: var(--gray-3);
   max-width: 410px;
   position: absolute;
-  right: 60px;
+  right: 0px;
   bottom: 15px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__sub-title {
-    bottom: -10px;
-    right: -30px;
+    bottom: -5px;
+      right: -130px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
