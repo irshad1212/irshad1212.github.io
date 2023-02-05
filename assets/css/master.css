@@ -12108,6 +12108,7 @@ img {
     opacity: 1;
     visibility: visible;
     right: 60px;
+    
   }
 }
 .portfolio__info p {
@@ -20904,10 +20905,14 @@ img {
 .portfolio__item-5 img {
   width: 100%;
   max-width: 100%;
+
 }
 .portfolio__content-5 {
-  background-color: var(--black-2);
-  padding: 20px 30px 22px 30px;
+  background-color: grey;
+  
+    border: 1px grey solid;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
   display: inline-block;
   position: absolute;
   top: 50%;
