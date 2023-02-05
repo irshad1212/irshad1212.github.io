@@ -21418,8 +21418,8 @@ img {
 }
 @media only screen and (max-width: 767px) {
   .footer__row {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -10px;
+      margin-right: -10px;
   }
 }
 .footer__top {
@@ -21640,7 +21640,8 @@ img {
 @media only screen and (max-width: 767px) {
   .footer__inner {
     background-color: transparent;
-    padding-left: 0;
+    padding-left: 10px;
+      padding-right: 10px;
     padding-top: 60px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -22096,11 +22097,13 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer__copyright p {
     max-width: 100%;
+    padding-top: 20px;
   }
 }
 @media only screen and (max-width: 767px) {
   .footer__copyright p {
     max-width: 100%;
+    padding-top: 20px;
   }
 }
 .footer__copyright p a {
